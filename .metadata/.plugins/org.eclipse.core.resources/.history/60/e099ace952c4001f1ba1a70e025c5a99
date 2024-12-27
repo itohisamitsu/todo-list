@@ -1,0 +1,6 @@
+package com.example.todoapp.repository;
+
+@Repository
+public interface TodoRepository extends JpaRepository<Todo, Long> {
+
+}
